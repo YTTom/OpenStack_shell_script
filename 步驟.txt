@@ -1,0 +1,16 @@
+1. 在每台上面改/etc/hosts、/etc/hostname
+
+2. 設定IP
+
+3. 在controller上執行openstack_newton_controller.sh
+
+4. 在network上執行openstack_newton_network.sh
+
+5. 在controller上執行openstack_newton_controller_step2.sh
+
+6. 在network上執行openstack_newton_network_step2.sh
+
+7. 在每台compute上執行openstack_newton_compute_install.sh
+
+8. 執行hpc_networkCreate 建立網段
+
